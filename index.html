@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Электробритва Cronier</title>
+		<link rel="stylesheet" href="normalization.css" />
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+
+	<body>
+		<main>
+			<div class="limitedOffer">
+				<h3>Конец предложения через: 1 день!</h3>
+			</div>
+
+			<div class="firstSection">
+				<div class="nameProduct">
+					<h3>ЭЛЕКТРОБРИТВА CRONIER</h3>
+				</div>
+				<div class="firstSectionCenter">
+					<div class="aboutProduct">
+						<ul>
+							<li>⚫️ Чистое бритье</li>
+							<li>⚫️ Для лица</li>
+							<li>⚫️ Для тела</li>
+							<li>⚫️ Индикатор</li>
+							<li>⚫️ 6500 об/мин</li>
+						</ul>
+					</div>
+					<div class="photoProduct">
+						<img
+							src="./assets/main-product-photo.png"
+							alt="Фотография продукта"
+							width="180"
+						/>
+					</div>
+					<div class="price">
+						<p>
+							<b><s>12.990тг</s></b>
+						</p>
+						<b><h2>Всего: 6.990тг</h2></b>
+					</div>
+				</div>
+			</div>
+
+			<div class="buySection">
+				<div class="buyBtn">
+					<a href="#contact">
+						<h1>КУПИТЬ</h1>
+					</a>
+				</div>
+			</div>
+
+			<div class="secondSection">
+				<div class="kaspi">
+					<h3>РАССРОЧКА 0-0-12</h3>
+					<img src="./assets/kaspi.png" alt="Иконка Kaspi" height="48" />
+					<h4>
+						RED <br />
+						GOLD
+					</h4>
+				</div>
+
+				<div class="productImages">
+					<img
+						src="./assets/secondary-left.png"
+						alt="Фото продукта"
+						class="leftPhoto"
+					/>
+					<img
+						src="./assets/secondary-middle.png"
+						alt="Фото продукта"
+						class="centerPhoto"
+					/>
+					<img
+						src="./assets/secondary-right.png"
+						alt="Фото продукта"
+						class="rightPhoto"
+					/>
+				</div>
+
+				<div id="contact">
+					<div class="whatsApp">
+						<a href="https://wa.me/77075287445?text=Электробритва Cronier">
+							<div class="whatsAppLink">
+								<div class="whatsAppLogo">
+									<img
+										src="./assets/whatsAppLogo.png"
+										alt="логотип WhatsApp"
+										height="35"
+									/>
+								</div>
+								<h3>&nbsp;👈 Напишите нам для заказа</h3>
+							</div>
+						</a>
+					</div>
+
+					<div class="myForm">
+						<h3>Или оставьте заявку ниже</h3>
+						<form
+							action="https://api.web3forms.com/submit"
+							method="POST"
+							class="form"
+							id="form"
+							autocomplete="off"
+						>
+							<!-- web3forms key -->
+							<input
+								type="hidden"
+								name="access_key"
+								value="fb074775-97ef-4b42-8114-315418054bd3"
+							/>
+							<!-- web3forms key -->
+							<div class="form__input-box">
+								<input
+									class="form__input-inp"
+									id="name"
+									name="name"
+									type="text"
+									placeholder="Введите Ваше имя"
+									autocomplete="off"
+								/>
+								<span class="error-message" id="nameError"></span>
+								<input
+									class="form__input-inp"
+									id="tel"
+									name="tel"
+									type="tel"
+									placeholder="Введите Ваш номер телефона"
+									autocomplete="off"
+								/>
+								<span class="error-message" id="telError"></span>
+								<button
+									class="form__btn"
+									id="submitBtn"
+									name="submit-button"
+									type="submit"
+									disabled
+								>
+									ОСТАВИТЬ ЗАЯВКУ
+								</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+
+			<!-- Подключение библиотеку inpurmask.js -->
+			<script src="js/inputmask.min.js"></script>
+			<!-- Подключение скрипт justvalidate.js -->
+			<script src="js/just-validate.min.js"></script>
+			<!-- Подключение main.js -->
+			<script type="module" src="js/main.js"></script>
+		</main>
+	</body>
+</html>
